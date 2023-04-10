@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins&family=Source+Sans+Pro&display=swap");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+* {
+	/*border: 1px solid black;*/
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background: linear-gradient(		
+		rgb(255, 215, 0) 0%,
+		rgb(218, 165, 32) 10%,
+		rgb(210, 105, 30) 90%
+		);
+}
+
+#header {
+	background-color: ghostwhite;
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 0.1px 0.1px 15px black;
+}
+
+#nav-bar {
+	display: flex;
+	align-items: center;
+}
+#nav-bar ul {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	justify-content: space-evenly;
+	width: 400px;
+}
+.nav-link {
+	text-decoration: none;
+	color: black;
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+}
+.nav-link:hover {
+	color: gray;
+	text-decoration: underline;
+}
+
+#header-img {
+  height: 50px;
+  width: 50px;  
+  border-radius: 50%;
+}
+
+#logo{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-left: 8px;
+}
+
+#video {
+	width: 550px;
+	height: 315px;
+	border: 1px solid transparent;
+	border-radius: 25px;		
+}
+
+h1 {
+	font-family: Lobster, cursive;
+	font-size: 30px;
+}
+
+p {
+	font-family: "Poppins", sans-serif;
+}
+
+#wordmark {
+	margin-left: 5%;
+	font-family: Lobster, sans-serif;
+	font-size: 30px;
+	color: black;
+	padding: 0 2px;
+	margin: 0;
+}
+
+#opening {
+	margin: 40px 0 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#opening-text {
+	height: 150px;
+	padding: 15px;
+	text-align: center;	
+}	
+
+#discover {
+	background-color: white;
+	padding: 30px 40px;
+	gap: 30px;
+  letter-spacing: 0.6px;
+	font-family: 'Baskervville', serif;
+	display: flex;		
+	text-align: justify;
+}
+
+#reviews > #review-text {
+	text-align: center;
+	font-family: Lobster, cursive;	
+}
+
+#review-grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+	width: 95%;
+	max-width: 920px;
+	margin: 0 auto;
+}
+.review-container {
+	display: flex;
+	align-items: center;
+	padding: 0 10px;
+	margin: 10px 0;
+	justify-content: center;
+}
+.reviewer-feedback {
+	width: 80%;
+	margin: 0 10px;
+	display: inline;
+	
+}
+.reviewer-name, .stars {
+	display: inline;
+}
+.review-comment {
+	display: block;
+	font-size: 18px;
+}
+.reviewer-image img {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	object-fit: cover;
+}
+.yellow-star {
+	color: #ffcd00;
+}
+
+#about-us {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#about-us {
+	background-color: white;
+}
+
+#about-info {
+	max-width: 670px;
+	padding: 0 20px;
+}
+
+#about-text p {
+	margin: 12px 0;
+}
+
+#about-logo {
+	width: 300px;
+	height: 300px;
+	padding: 12px;
+}
+
+#about-email #subscribe-form {
+	margin-top: 10px;
+}
+
+#about-email #email {
+	margin-top: 10px;
+	padding: 5px;
+	width: 250px;
+}
+
+.buy-card {
+	width: 270px;
+	height: 450px;
+	padding: 8px;
+	text-align: center;
+	background-color: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	display: grid;		
+}
+
+.buy-card h1 {
+	padding: 9px;
+}
+
+.buy-card p {
+	margin: 10px auto;
+	width: 220px;
+	height: 60px;
+}
+
+a[class="kvass-button"] {
+	text-decoration: none;
+}
+
+footer {
+	background-color: white;
+	padding: 20px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 12px;
+}
+	
+.kvass-flex {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.kvass-button {
+	padding: 6px 18px;
+	background-color: rgb(204, 102, 0);;
+	border: none;
+	border-radius: 5px;
+	font-family: "Lobster", sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	margin: auto 0;
+	color: white;
+}
+.kvass-button:hover {
+	cursor: pointer;
+	background-color: #eb8d00;
+}
+.kvass-button:active {
+	color: black;
+}
+
+section:not(#opening) {
+	padding: 50px 0;
+}
+
+#opening {
+	padding: 12px;
+}
+#opening-text {
+	height: 120px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	font-family: Snell Roundhand, cursive;
+}
+
+#submit{
+	margin-top: 4px;
+}
+
+.bottle {	
+	height: 150px;	
+}
+
+.btl{
+	padding-top: 20px;
+}
+
+footer {
+background-color: ghostwhite;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	* {
+		scroll-behavior: smooth;
+	}
+}
+
+@media only screen and (max-width: 730px) {
+	#header {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#nav-bar {
+		height: 40px;
+	}
+
+	#opening {
+		flex-direction: column;
+		margin: 80px auto 0;
+		text-align: center;
+	}
+	#opening > #opening-text {
+		align-items: center;
+		margin-bottom: -12px;
+	}
+	#opening > #opening-text > h1 {
+		margin: 2px;
+	}
+
+	#video {
+		width: 85%;
+	}
+	#discover {
+		flex-direction: column;
+	}
+	
+	#review-grid-container {
+		grid-template-columns: auto;
+	}
+	.review-container {
+		margin: 15px 0;
+	}
+
+	#about-us {
+		flex-direction: column;
+		text-align: center;
+	}
+	#about-us form {
+		width: 300px;
+		margin: 10px auto 0;
+	}
+	#about-us #email,
+	#about-us #submit {
+		width: 100%;
+	}
+	#about-us #submit {
+		margin-top: 10px;
+	}
+
+	#about-logo {
+		width: 200px;
+		height: 200px;
+	}
+
+	#buy {
+		flex-direction: column-reverse;
+	}
+
+	.buy-card {
+		margin: 5px 0;
+		width: 300px;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	#nav-bar {
+		width: 85%;
+		min-width: 280px;
+	}
+
+	#opening {
+		margin: 100px auto 0;
+	}
+
+h1 {
+	font-size: 25px;
+}
+
+}
