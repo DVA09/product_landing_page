@@ -21,4 +21,5 @@ User Stories:
 15. Your product landing page should utilize CSS flexbox at least once
 
 ![image](https://github.com/DVA09/product_landing_page/assets/112496696/56faf387-8aed-447b-9e61-2e4957bca95d)
-![image](https://github.com/DVA09/product_landing_page/assets/112496696/fd330719-fdb3-4631-8dd1-4217afdb906d)
+![image](https://github.com/DVA09/product_landing_page/assets/112496696/ac7a2d10-6e6f-4d30-893e-4dac0557726c)
+
